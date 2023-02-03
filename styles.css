@@ -1,0 +1,148 @@
+.nameBox {
+	width: 100%;
+	height: 200px;
+	background-color: #404142;
+	color: #ffffff;
+	font-size: 700%;
+	text-align: center;
+	line-height: 200px;
+	font-family: Georgia;
+	font-weight: bold;
+}
+
+.leftBox {
+	width: 20%;
+	height: 400px;
+	float: left;
+	margin-bottom: 50px;
+	font-family: Georgia;
+	background-color: #404142;
+	color: #ffffff;
+	font-size: 400%;
+	text-align: center;
+	line-height: 250px;
+	writing-mode: vertical-rl;
+	transform-origin: center;
+	transform: rotate(180deg);
+}
+
+.rightBox {
+	width: 80%;
+	height: 400px;
+	float: right;
+	margin-bottom: 50px;
+	font-family: Georgia;
+	background-color: #bdc3c7;
+	color: #ffffff;
+	font-size: 200%;
+	text-indent: 50px;
+}
+
+.sidenav {
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: linear-gradient(#601097, #9222A6);
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 30px;
+	color: #cccccc;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #ffffff;
+}
+
+.main {
+	margin-left: 200px;
+	padding: 0px 10px;
+}
+.about {
+	font-size: 24px;
+	height: 200px;
+	margin-bottom: 100px;
+}
+
+.about img {
+	width: 150px;
+	height: 200px;
+	float: left;
+	margin-right: 30px;
+}
+
+.about p {
+	display: inline;
+}
+
+.about h1 {
+	display: inline;
+} 
+
+.projet {
+	font-size: 24px;
+	height: 400px;
+	margin-bottom: 100px;
+}
+
+.projet img {
+	width: 480px;
+	height: 400px;
+	float: right;
+}
+
+.project p {
+	display: inline;
+}
+
+.project h1 {
+	display: inline;
+}
+
+
+.big {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 200px;
+	color: #ffffff;
+	display: block;
+}
+
+.sep {
+	margin-top: 50px;
+}
+
+.header {
+	width: 100%;
+	height: 200px;
+	background-color: #601097;
+	color: #ffffff;
+	font-size: 700%;
+	text-align: center;
+	line-height: 200px;
+	font-family: Georgia;
+	font-weight: bold;
+	top: 0;
+	margin-bottom: 30px;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: #9222A6;
+	color: #ffffff;
+	font-size: 350%;
+	text-align: center;
+	line-height: 100px;
+	font-family: Georgia;
+	font-weight: bold;
+	bottom: 0
+}
