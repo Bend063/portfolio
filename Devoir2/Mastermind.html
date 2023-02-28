@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Mastermind</title>
+		<link type="text/css" rel="stylesheet" href="style2.css">
+		<script type="text/javascript" src="Master.js"></script>
+	</head>
+    <body>
+		<h1 style="text-align:center;">MASTERMIND</h1>
+        <div class="grid-container" id="colorGrid">
+			<div class="grid-item" onclick="placeColor(0)">
+				<div class="button"></div>
+			</div>
+			<div class="grid-item" onclick="placeColor(1)">
+				<div class="button"></div>
+			</div>
+			<div class="grid-item" onclick="placeColor(2)">
+				<div class="button"></div>
+			</div>  
+			<div class="grid-item" onclick="placeColor(3)"> 
+				<div class="button"></div>
+			</div>
+		</div>
+		<div id="colorButtons" style="text-align:center;">
+			<button class="button orange" onclick="chooseColor(0)">Orange</button>
+			<button class="button yellow" onclick="chooseColor(1)">Yellow</button>
+			<button class="button blue" onclick="chooseColor(2)">Blue</button>
+			<button class="button green" onclick="chooseColor(3)">Green</button>
+			<button class="button magenta" onclick="chooseColor(4)">Magenta</button>
+			<button class="button purple" onclick="chooseColor(5)">Purple</button>
+			<button class="button" style="background-color:red;" onclick="chooseColor(6)">X</button>
+			<button class="button" style="background-color:blue;" onclick="submitGuess()">Submit</button>
+		</div>
+		<div class="grid-container" id="hintGrid">
+			<div class="grid-item">
+				<div class="grid-container">
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+				</div>
+				<div class="white">?</div>
+				<div class="red">?</div>
+			</div>
+			<div class="grid-item">
+				<div class="grid-container">
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+				</div>
+				<div class="white">?</div>
+				<div class="red">?</div>
+			</div>
+			<div class="grid-item">
+				<div class="grid-container">
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+				</div>
+				<div class="white">?</div>
+				<div class="red">?</div>
+			</div>
+			<div class="grid-item">
+				<div class="grid-container">
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+				</div>
+				<div class="white">?</div>
+				<div class="red">?</div>
+			</div>
+			<div class="grid-item">
+				<div class="grid-container">
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+				</div>
+				<div class="white">?</div>
+				<div class="red">?</div>
+			</div>
+			<div class="grid-item">
+				<div class="grid-container">
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+				</div>
+				<div class="white">?</div>
+				<div class="red">?</div>
+			</div>
+			<div class="grid-item">
+				<div class="grid-container">
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+				</div>
+				<div class="white">?</div>
+				<div class="red">?</div>
+			</div>
+			<div class="grid-item">
+				<div class="grid-container">
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+					<div class="grid-item"></div>
+				</div>
+				<div class="white">?</div>
+				<div class="red">?</div>
+			</div>
+		</div>
+		<div style="text-align: center;">
+			<button class="button" style="background-color:black;" onclick="reset()">Reset</button><br>
+			<a href="https://en.wikipedia.org/wiki/Mastermind_(board_game)">How to play</a>
+		</div>
+    </body>
+</html>
